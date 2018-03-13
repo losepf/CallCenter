@@ -6,7 +6,7 @@ public class SolveDiceRollHelper {
 	public static boolean checkSolved() {
 		try {
 			// random solved time
-			Thread.sleep(new Integer(new Random().nextInt(3) * 100).longValue());
+			Thread.sleep(new Integer(new Random().nextInt(3) * 10).longValue());
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
